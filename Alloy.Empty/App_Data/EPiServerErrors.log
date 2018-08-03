@@ -1,0 +1,17 @@
+﻿2018-08-03 19:59:10,741 [41] ERROR EPiServer.Global: Unhandled exception in ASP.NET
+System.InvalidOperationException: This request has probably been tampered with. Close the browser and try again.
+   at EPiServer.Framework.Web.AspNetAntiForgery.ThrowForgeryException()
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.ValidateAntiForgeryToken(HttpContextBase httpContext)
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.GetController(HttpContextBase httpContext)
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.BeginProcessRequest(HttpContextBase context, AsyncCallback callback, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.InvalidOperationException: This request has probably been tampered with. Close the browser and try again.
+   at EPiServer.Framework.Web.AspNetAntiForgery.ThrowForgeryException()
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.ValidateAntiForgeryToken(HttpContextBase httpContext)
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.GetController(HttpContextBase httpContext)
+   at EPiServer.Shell.Services.Rest.RestHttpHandler.BeginProcessRequest(HttpContextBase context, AsyncCallback callback, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
